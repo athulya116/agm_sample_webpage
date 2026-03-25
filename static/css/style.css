@@ -1,0 +1,528 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caudex&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=AR+One+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
+/* General Styles */
+body {
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+header {
+    font-size: 1.1rem !important;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.navbar-brand img {
+    height: auto;
+    width: 120px;
+}
+
+.nav-link {
+    font-weight: 500;
+    color: #333 !important;
+    padding: 0.5rem 1rem !important;
+}
+
+.nav-link:hover {
+    color: #E8635E !important;
+}
+
+.agm-header-button {
+    font-family: 'Caveat Brush', cursive;
+    background-color: rgba(232, 99, 94, 1);
+    border: none;
+    color: white !important;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    display: inline-block;
+    line-height: normal;
+    vertical-align: middle;
+    transition: background-color 0.3s;
+}
+
+.agm-header-button:hover {
+    background-color: rgba(200, 80, 75, 1);
+    color: white !important;
+    text-decoration: none;
+}
+
+/* Main Block Styles */
+.agm-main-block-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 80px 20px;
+    background-color: #fff;
+}
+
+.agm-main-block-first-line {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Caveat', cursive;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+
+.agm-main-block-main-heading {
+    font-family: 'Caveat', cursive;
+    font-size: 42px;
+    color: #E8635E;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.agm-main-block-main-heading img {
+    height: 32px;
+    width: auto;
+    position: relative;
+    top: -5px;
+}
+
+.agm-mb-second-line {
+    font-family: 'Caudex', serif;
+    font-size: 56px;
+    font-weight: bold;
+    color: #000000;
+    line-height: 1.1;
+    margin-top: 10px;
+}
+
+.main-block-business-bg {
+    position: relative;
+    display: inline-block;
+    background: url('../img/bg_brush.png') no-repeat center center;
+    background-size: contain;
+    padding: 5px 25px;
+    color: black;
+}
+
+.agm-main-block-three-lines {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'AR One Sans', sans-serif;
+    color: #1C1D26;
+    text-align: center;
+    margin-top: 25px;
+    max-width: 900px;
+}
+
+.agm-main-block-three-lines p {
+    margin: 2px 0;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.agm-main-block-three-lines a {
+    color: #e91e63;
+    text-decoration: none;
+}
+
+.agm-main-block-three-lines a:hover {
+    color: #c2185b;
+    text-decoration: underline;
+}
+
+.main-b-two-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+.main-b-trynow-btn,
+.schedule-btn {
+    border: none;
+    padding: 12px 35px;
+    border-radius: 8px;
+    font-family: 'Caveat Brush', cursive;
+    font-size: 1.4rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.main-b-trynow-btn {
+    background-color: #E8635E;
+    color: white !important;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.main-b-trynow-btn:hover {
+    background-color: #d7544e;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    transform: translateY(-2px);
+}
+
+.schedule-btn {
+    background-color: #FFF5F5;
+    color: #E8635E !important;
+    border: 2px solid #E8635E;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.schedule-btn:hover {
+    background-color: #ffe5e5;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    transform: translateY(-2px);
+}
+
+.arrow-image {
+    height: 12px;
+}
+
+.phone-img {
+    height: 22px;
+}
+
+.highlighted-text {
+    position: relative;
+    display: inline-block;
+    font-weight: bold;
+    z-index: 1;
+}
+
+.highlighted-text::after {
+    content: '';
+    position: absolute;
+    bottom: 8px;
+    left: 0;
+    width: 100%;
+    height: 8px;
+    background: url('../img/Ink_Brush_3x.png') no-repeat center;
+    background-size: contain;
+    z-index: -1;
+}
+
+/* Footer Styles */
+.custom-footer {
+    background-color: #0b080d;
+    color: #cccccc;
+    padding: 60px 0 20px;
+    text-align: left;
+}
+
+.footer-logo {
+    width: 120px;
+    margin-bottom: 30px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.footer-sections-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    flex: 2;
+}
+
+.footer-section {
+    min-width: 180px;
+}
+
+.footer-section h4 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+    color: #FFFFFF !important;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 12px;
+}
+
+.footer-section ul li a {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    color: #cccccc !important;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+    color: #ffffff !important;
+}
+
+.footer-contact-group {
+    flex: 1;
+    min-width: 280px;
+}
+
+.footer-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 15px;
+}
+
+.footer-item img {
+    width: 20px;
+    height: 20px;
+    margin-right: 12px;
+    margin-top: 3px;
+}
+
+.footer-text {
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.footer-text a {
+    color: #cccccc !important;
+    text-decoration: none;
+}
+
+.footer-badges {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.footer-badge-item img {
+    width: 90px;
+    height: auto;
+}
+
+.footer-badge-item:first-child img {
+    width: 240px;
+    height: auto;
+    margin-top: -20px;
+}
+
+.agm_social_media_icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    border-top: 1px solid #333;
+    padding-top: 30px;
+    margin-top: 40px;
+}
+
+.agm_social_media_icons img {
+    width: 25px;
+    height: auto;
+    transition: transform 0.3s;
+}
+
+.agm_social_media_icons img:hover {
+    transform: scale(1.2);
+}
+
+/* Visibility Classes */
+.desktop-only {
+    display: flex !important;
+}
+.mobile-only {
+    display: none !important;
+}
+
+/* Responsiveness */
+@media (max-width: 890px) {
+    .desktop-only {
+        display: none !important;
+    }
+    .mobile-only {
+        display: flex !important;
+    }
+
+    /* Mobile Main Block Styles */
+    .main-view {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 40px 10px;
+        background-color: #fff;
+    }
+    
+    .main-view .mbmv-content-wrapper {
+        max-width: 400px;
+        width: 100%;
+    }
+    
+    .main-view .main-view-heading {
+        font-family: 'Caveat', cursive;
+        font-size: 40px;
+        color: rgba(232,99,94,1);
+        font-weight: normal;
+        margin-bottom: 5px;
+        display: inline-block;
+    }
+    
+    .main-view .main-view-heading img {
+        height: 25px;
+        width: auto;
+        vertical-align: middle;
+        margin-right: 5px;
+        position: relative;
+        top: -15px;
+    }
+    
+    .main-view .sub-heading {
+        font-family: 'Caudex', serif;
+        font-size: 42px;
+        font-weight: bold;
+        line-height: 1.1;
+        margin-bottom: 25px;
+        display: block;
+    }
+    
+    .main-view .sub-heading .unify-bg {
+        background: url('../img/Ink_Brush.png') no-repeat center center;
+        background-size: contain;
+        background-position: center 80%;
+        padding: 0 10px;
+        font-weight: bold;
+    }
+
+    .main-view .sub-heading .business-bg {
+        background: url('../img/bg_brush.png') no-repeat center center;
+        background-size: contain;
+        padding: 0 15px;
+        font-weight: bold;
+    }
+    
+    .main-view .cta-buttons {
+        font-family: 'Caveat Brush', cursive;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        margin-top: 20px;
+    }
+    
+    .main-view .cta-button {
+        display: block;
+        width: 100%;
+        max-width: 250px;
+        text-decoration: none;
+        border-radius: 8px;
+        font-size: 1.2rem;
+        transition: transform 0.2s;
+    }
+    
+    .main-view .cta-button:active {
+        transform: scale(0.98);
+    }
+
+    .main-view .cta-button.try-now {
+        background-color: rgba(232,99,94,1);
+        color: #FFFFFF !important;
+        text-align: center;
+        padding: 12px 20px;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+    
+    .main-view .cta-button.try-now img {
+        height: 13px;
+        width: auto;
+        margin-left: 8px;
+    }
+    
+    .main-view .cta-button.schedule-demo {
+        background-color: transparent;
+        color: rgba(232,99,94,1) !important;
+        text-align: center;
+        padding: 10px 20px;
+        border: 2px solid rgba(232,99,94,1);
+        box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    }
+    
+    .main-view .cta-button.schedule-demo img {
+        height: 18px;
+        width: auto;
+        margin-left: 8px;
+    }
+
+    /* Mobile Footer Badges */
+    .footer-badges-mobile {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        width: 100%;
+        margin-top: -20px;
+        margin-bottom: 20px;
+    }
+
+    .footer-badge-item-mobile:nth-child(1) img {
+        width: 110px;
+        height: auto;
+    }
+
+    .footer-badge-item-mobile:nth-child(2) img,
+    .footer-badge-item-mobile:nth-child(3) img {
+        width: 40px;
+        height: auto;
+    }
+}
+
+@media (max-width: 767px) {
+    .agm-mb-second-line {
+        font-size: 32px;
+    }
+    .footer-sections-group {
+        flex-direction: column !important;
+        gap: 40px;
+    }
+    .footer-section {
+        align-items: flex-start !important;
+        text-align: left !important;
+    }
+    .footer-content {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 480px) {
+    .main-view .sub-heading {
+        font-size: 38px;
+    }
+}
+
+@media (max-width: 325px) {
+    .main-view .sub-heading {
+        font-size: 32px;
+    }
+}
